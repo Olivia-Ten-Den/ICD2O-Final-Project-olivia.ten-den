@@ -5,3 +5,5 @@
 // This file contains the JS functions for index.html
 
 'use strict'
+
+
