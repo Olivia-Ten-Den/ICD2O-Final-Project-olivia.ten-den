@@ -17,13 +17,13 @@
 }
 
 .mdl-textfield__error {
-  color: rgb(120, 31, 31);
+  color: rgb(120 31 31);
 }
 
 .page-content {
-  color: rgb(0, 0, 0);
+  color: rgb(0 0 0);
   font-family: Helvetica, Arial, sans-serif;
-  font-size: 2.00rem;
+  font-size: 2rem;
 }
 
 body {
