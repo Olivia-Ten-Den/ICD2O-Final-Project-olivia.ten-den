@@ -14,7 +14,7 @@ function rollAllDice() {
   let dieFour = document.getElementById("die-four")
   let dieFive = document.getElementById("die-five")
   let dieSix = document.getElementById("die-six")
-
+  
   if (numberOfDice = 1) {
     <p>1</p>
   }
