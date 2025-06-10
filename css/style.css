@@ -1,6 +1,7 @@
 /* Created by: Olivia Ten Den 
 * Created on: Feb 27
 * Updated on: May 10
+* Updated on: June 5
 * This file contains the CSS for index.html
 */
 
@@ -16,17 +17,17 @@
 }
 
 .mdl-textfield__error {
-  color: rgb(148, 148, 229);
+  color: rgb(120 31 31);
 }
 
 .page-content {
-  color: rgb(0, 0, 0);
+  color: rgb(0 0 0);
   font-family: Helvetica, Arial, sans-serif;
-  font-size: 2.00rem;
+  font-size: 2rem;
 }
 
 body {
-  background-color: #bd94eb;
+  background-color: #fed5ff;
 }
 
 img {
