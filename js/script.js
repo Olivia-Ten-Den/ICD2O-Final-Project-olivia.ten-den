@@ -6,7 +6,7 @@
 
 'use strict'
 
-function rollAllDice(){
+function rollAllDice() {
   let numberOfDice = document.getElementById("dice")
   let dieOne = document.getElementById("die-one")
   let dieTwo = document.getElementById("die-two")
@@ -15,25 +15,25 @@ function rollAllDice(){
   let dieFive = document.getElementById("die-five")
   let dieSix = document.getElementById("die-six")
 
-  if (numberOfDice = 1){
+  if (numberOfDice = 1) {
     <p>1</p>
-}
-  else if (numberOfDice = 2){
+  }
+  else if (numberOfDice = 2) {
     <p>2</p>
   }
-  else if (numberOfDice = 3){
+  else if (numberOfDice = 3) {
     <p>3</p>
   }
-  else if (numberOfDice = 4){
+  else if (numberOfDice = 4) {
     <p>4</p>
   }
-  else if (numberOfDice = 5){
+  else if (numberOfDice = 5) {
     <p>5</p>
   }
-  else if (numberOfDice = 6){
+  else if (numberOfDice = 6) {
     <p>6</p>
   }
-  else{
+  else {
     <p>Something went wrong.</p>
   }
 }
