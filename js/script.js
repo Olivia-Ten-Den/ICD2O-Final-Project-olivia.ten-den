@@ -38,7 +38,6 @@ function rollAllDice () {
     document.getElementById('die-four').innerHTML = '<p>0</p>'
     document.getElementById('die-five').innerHTML = '<p>0</p>'
     document.getElementById('die-six').innerHTML = '<p>0</p>'
-
   } else if (numberOfDice === 2) {
     <p>2</p>
   } else if (numberOfDice === 3) {
