@@ -9,7 +9,8 @@
 function RollDice() {
   let numberOfDice = document.getElementById('dice')
   let dieOne = document.getElementById('die-one')
-/* let dieTwo = document.getElementById('die-two')
+  /*
+  let dieTwo = document.getElementById('die-two')
   let dieThree = document.getElementById('die-three')
   let dieFour = document.getElementById('die-four')
   let dieFive = document.getElementById('die-five')
