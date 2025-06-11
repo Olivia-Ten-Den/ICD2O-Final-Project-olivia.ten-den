@@ -6,7 +6,7 @@
 
 'use strict'
 
-function rollAllDice() {
+function rollAllDice () {
   let numberOfDice = document.getElementById("dice")
   let dieOne = document.getElementById("die-one")
   let dieTwo = document.getElementById("die-two")
