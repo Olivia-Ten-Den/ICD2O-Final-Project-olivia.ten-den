@@ -16,19 +16,19 @@ function rollAllDice () {
   let dieFive = document.getElementById('die-five')
   let dieSix = document.getElementById('die-six')
   
-  if (numberOfDice == 1) {
+  if (numberOfDice === 1) {
     dieOne = Math.floor(Math.random() * 6) + 1
-    if (dieOne == 1) {
+    if (dieOne === 1) {
       document.getElementById('die-one').innerHTML = '<p>1</p>'
-    } else if (dieOne == 2) {
+    } else if (dieOne === 2) {
       document.getElementById('die-one').innerHTML = '<p>2</p>'
-    } else if (dieOne == 3) {
+    } else if (dieOne === 3) {
       document.getElementById('die-one').innerHTML = '<p>3</p>'
-    } else if (dieOne == 4) {
+    } else if (dieOne === 4) {
       document.getElementById('die-one').innerHTML = '<p>4</p>'
-    } else if (dieOne = 5) {
+    } else if (dieOne === 5) {
       document.getElementById('die-one').innerHTML = '<p>5</p>'
-    } else if (dieOne == 6) {
+    } else if (dieOne === 6) {
       document.getElementById('die-one').innerHTML = '<p>6</p>'
     } else {
       <p>Error</p>
@@ -39,15 +39,15 @@ function rollAllDice () {
     document.getElementById('die-five').innerHTML = '<p>0</p>'
     document.getElementById('die-six').innerHTML = '<p>0</p>'
 
-  } else if (numberOfDice == 2) {
+  } else if (numberOfDice === 2) {
     <p>2</p>
-  } else if (numberOfDice == 3) {
+  } else if (numberOfDice === 3) {
     <p>3</p>
-  } else if (numberOfDice == 4) {
+  } else if (numberOfDice === 4) {
     <p>4</p>
-  } else if (numberOfDice == 5) {
+  } else if (numberOfDice === 5) {
     <p>5</p>
-  } else if (numberOfDice == 6) {
+  } else if (numberOfDice === 6) {
     <p>6</p>
   } else {
     <p>Something went wrong.</p>
