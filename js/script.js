@@ -10,12 +10,12 @@
 function rollAllDice () {
   const numberOfDice = document.getElementById('dice').selectedIndex
   // empty images
-  document.getElementById('die-one').innerHTML = '<img src="./assets/empty.png">'
-  document.getElementById('die-two').innerHTML = '<img src="./assets/empty.png">'
-  document.getElementById('die-three').innerHTML = '<img src="./assets/empty.png">'
-  document.getElementById('die-four').innerHTML = '<img src="./assets/empty.png">'
-  document.getElementById('die-five').innerHTML = '<img src="./assets/empty.png">'
-  document.getElementById('die-six').innerHTML = '<img src="./assets/empty.png">'
+  document.getElementById('die-one').innerHTML = '<img src="./assets/pink.png">'
+  document.getElementById('die-two').innerHTML = '<img src="./assets/pink.png">'
+  document.getElementById('die-three').innerHTML = '<img src="./assets/pink.png">'
+  document.getElementById('die-four').innerHTML = '<img src="./assets/pink.png">'
+  document.getElementById('die-five').innerHTML = '<img src="./assets/pink.png">'
+  document.getElementById('die-six').innerHTML = '<img src="./assets/pink.png">'
 
   // for 1 die
   if (numberOfDice >= 0) {
