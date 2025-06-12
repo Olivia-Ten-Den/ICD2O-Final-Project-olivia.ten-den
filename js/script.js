@@ -7,14 +7,14 @@
 'use strict'
 
 // eslint-disable-next-line no-unused-vars
-function rollAllDice() {
-  let numberOfDice = document.getElementById('dice')
+function rollAllDice () {
+  const numberOfDice = document.getElementById('dice')
   let dieOne = document.getElementById('die-one')
   let dieTwo = document.getElementById('die-two')
   let dieThree = document.getElementById('die-three')
   let dieFour = document.getElementById('die-four')
   let dieFive = document.getElementById('die-five')
-  let dieSix = document.getElementById('die-six')
+  const dieSix = document.getElementById('die-six')
 
   if (numberOfDice === 1) { // start one die
     dieOne = Math.floor(Math.random() * 6) + 1
