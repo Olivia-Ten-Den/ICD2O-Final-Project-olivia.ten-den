@@ -15,7 +15,7 @@ function rollAllDice () {
   let dieFour = document.getElementById('die-four')
   let dieFive = document.getElementById('die-five')
   let dieSix = document.getElementById('die-six')
-  
+
   if (numberOfDice === 1) {
     dieOne = Math.floor(Math.random() * 6) + 1
     if (dieOne === 1) {
