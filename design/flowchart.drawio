@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="HIP3nbAZw_EuaXWnEj3U" name="Page-1">
-        <mxGraphModel dx="1920" dy="935" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1152" dy="561" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -11,402 +11,34 @@
                     <mxGeometry x="50" y="10" width="100" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="5" value="Stop" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
-                    <mxGeometry x="1260" y="406" width="100" height="60" as="geometry"/>
+                    <mxGeometry x="40" y="1180" width="100" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="12" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="6" target="11" edge="1">
+                <mxCell id="400" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="6" target="399">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="6" value="Get numberOfDice" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-                    <mxGeometry x="32.5" y="100" width="135" height="60" as="geometry"/>
+                    <mxGeometry x="32.5" y="90" width="135" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="17" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="11" target="13" edge="1">
+                <mxCell id="414" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="28" target="413">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="29" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="11" target="28" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="11" value="if&lt;div&gt;numberOfDice = 1&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-                    <mxGeometry x="45" y="190" width="110" height="110" as="geometry"/>
-                </mxCell>
-                <mxCell id="18" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="259" target="14" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="102" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="13" target="69" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="13" value="else if&lt;br&gt;&lt;div&gt;numberOfDice = 2&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-                    <mxGeometry x="370" y="190" width="110" height="110" as="geometry"/>
-                </mxCell>
-                <mxCell id="346" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="14" target="345">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="383" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="14" target="382">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="14" value="else if&lt;br&gt;&lt;div&gt;numberOfDice = 6&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-                    <mxGeometry x="807" y="190" width="110" height="110" as="geometry"/>
-                </mxCell>
-                <mxCell id="27" value="false" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-                    <mxGeometry x="220" y="210" width="50" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="31" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="28" target="30" edge="1">
+                <mxCell id="429" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="28" target="426">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="28" value="dieOne =&amp;nbsp;&amp;nbsp;Math.floor(Math.random() * 6) + 1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;strokeWidth=2;labelBackgroundColor=default;" parent="1" vertex="1">
-                    <mxGeometry x="32.5" y="330" width="135" height="60" as="geometry"/>
+                    <mxGeometry x="249" y="151" width="135" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="37" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="30" target="36" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="45" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="30" target="44" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="30" value="if&lt;div&gt;dieOne = 1&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-                    <mxGeometry x="50" y="430" width="100" height="100" as="geometry"/>
-                </mxCell>
-                <mxCell id="32" value="false" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-                    <mxGeometry x="492.5" y="220" width="50" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="39" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="260" target="42" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="100" y="710" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="47" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="36" target="46" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="36" value="else if&lt;div&gt;dieOne = 2&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-                    <mxGeometry x="50" y="560" width="100" height="100" as="geometry"/>
-                </mxCell>
-                <mxCell id="55" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="42" target="54" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="56" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="42" target="57" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="110" y="1090" as="targetPoint"/>
-                        <Array as="points">
-                            <mxPoint x="100" y="951"/>
-                        </Array>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="42" value="else if&lt;div&gt;dieOne = 6&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-                    <mxGeometry x="50" y="821" width="100" height="100" as="geometry"/>
-                </mxCell>
-                <mxCell id="44" value="Output 1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-                    <mxGeometry x="167.5" y="455" width="120" height="50" as="geometry"/>
-                </mxCell>
-                <mxCell id="46" value="Output 2" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-                    <mxGeometry x="167.5" y="585" width="120" height="50" as="geometry"/>
-                </mxCell>
-                <mxCell id="54" value="Output 6" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-                    <mxGeometry x="167.5" y="846" width="120" height="50" as="geometry"/>
-                </mxCell>
-                <mxCell id="57" value="Error" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-                    <mxGeometry x="180" y="926" width="120" height="50" as="geometry"/>
-                </mxCell>
-                <mxCell id="58" value="false" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-                    <mxGeometry x="50" y="520" width="50" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="59" value="false" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-                    <mxGeometry x="40" y="660" width="50" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="62" value="false" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-                    <mxGeometry x="117.5" y="951" width="50" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="63" value="true" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-                    <mxGeometry x="140" y="831" width="40" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="66" value="true" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-                    <mxGeometry x="140" y="580" width="40" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="67" value="true" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-                    <mxGeometry x="140" y="455" width="40" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="68" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="69" target="72" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="69" value="dieOne =&amp;nbsp;&amp;nbsp;Math.floor(Math.random() * 6) + 1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;strokeWidth=2;labelBackgroundColor=default;" parent="1" vertex="1">
-                    <mxGeometry x="357.5" y="331" width="135" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="70" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="72" target="75" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="71" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="72" target="95" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="506" y="481" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="72" value="if&lt;div&gt;dieOne = 1&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-                    <mxGeometry x="375" y="431" width="100" height="100" as="geometry"/>
-                </mxCell>
-                <mxCell id="73" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;entryX=0.483;entryY=0.101;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="75" target="263" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="425" y="691" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="74" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="75" target="96" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="506" y="611" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="75" value="else if&lt;div&gt;dieOne = 2&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-                    <mxGeometry x="375" y="561" width="100" height="100" as="geometry"/>
-                </mxCell>
-                <mxCell id="82" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="84" target="99" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="506" y="1001" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="83" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="84" target="100" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="505" y="1091" as="targetPoint"/>
-                        <Array as="points">
-                            <mxPoint x="425" y="940"/>
-                            <mxPoint x="499" y="940"/>
-                        </Array>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="84" value="else if&lt;div&gt;dieOne = 6&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-                    <mxGeometry x="372.5" y="790" width="100" height="100" as="geometry"/>
-                </mxCell>
-                <mxCell id="85" value="false" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-                    <mxGeometry x="375" y="521" width="50" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="86" value="false" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-                    <mxGeometry x="365" y="661" width="50" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="88" value="false" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-                    <mxGeometry x="370" y="921" width="50" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="90" value="true" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-                    <mxGeometry x="465" y="810" width="40" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="93" value="true" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-                    <mxGeometry x="465" y="573" width="40" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="94" value="true" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-                    <mxGeometry x="465" y="447" width="40" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="266" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="95" target="135">
-                    <mxGeometry relative="1" as="geometry">
-                        <Array as="points">
-                            <mxPoint x="660" y="481"/>
-                            <mxPoint x="660" y="990"/>
-                            <mxPoint x="460" y="990"/>
-                        </Array>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="95" value="Output 1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-                    <mxGeometry x="505" y="456" width="120" height="50" as="geometry"/>
-                </mxCell>
-                <mxCell id="267" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="96" target="135">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="700" y="710" as="targetPoint"/>
-                        <Array as="points">
-                            <mxPoint x="660" y="611"/>
-                            <mxPoint x="660" y="990"/>
-                            <mxPoint x="460" y="990"/>
-                        </Array>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="96" value="Output 2" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-                    <mxGeometry x="500" y="586" width="120" height="50" as="geometry"/>
-                </mxCell>
-                <mxCell id="268" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="99" target="135">
-                    <mxGeometry relative="1" as="geometry">
-                        <Array as="points">
-                            <mxPoint x="660" y="840"/>
-                            <mxPoint x="660" y="990"/>
-                            <mxPoint x="460" y="990"/>
-                        </Array>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="99" value="Output 6" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-                    <mxGeometry x="500" y="815" width="120" height="50" as="geometry"/>
-                </mxCell>
-                <mxCell id="269" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="100" target="135">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="690" y="990" as="targetPoint"/>
-                        <Array as="points">
-                            <mxPoint x="660" y="936"/>
-                            <mxPoint x="660" y="990"/>
-                            <mxPoint x="460" y="990"/>
-                        </Array>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="100" value="Error" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-                    <mxGeometry x="500" y="911" width="120" height="50" as="geometry"/>
-                </mxCell>
-                <mxCell id="291" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="135" target="272">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <UserObject label="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;dieTwo =&amp;nbsp;&amp;nbsp;Math.floor(Math.random() * 6) + 1&lt;/span&gt;" id="135">
-                    <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;strokeWidth=2;arcSize=12;labelBackgroundColor=default;" parent="1" vertex="1">
-                        <mxGeometry x="400" y="1011" width="120" height="50" as="geometry"/>
-                    </mxCell>
-                </UserObject>
-                <mxCell id="261" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="36" target="260">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="100" y="660" as="sourcePoint"/>
-                        <mxPoint x="100" y="821" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="260" value="&lt;b&gt;&lt;u&gt;dieOne = 3 through 5&lt;/u&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-                    <mxGeometry x="45" y="715" width="140" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="262" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="13" target="259">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="480" y="245" as="sourcePoint"/>
-                        <mxPoint x="819" y="245" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="259" value="&lt;b&gt;&lt;u&gt;numberOfDice 3 through 5&lt;/u&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-                    <mxGeometry x="565" y="230" width="170" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="265" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="263" target="84">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="263" value="&lt;b&gt;&lt;u&gt;dieOne = 3 through 5&lt;/u&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-                    <mxGeometry x="352.5" y="715" width="140" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="270" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="272" target="275">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="271" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="272" target="279">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="272" value="if&lt;div&gt;dieTwo = 1&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-                    <mxGeometry x="397" y="1100" width="100" height="100" as="geometry"/>
-                </mxCell>
-                <mxCell id="273" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="289" target="278">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="447" y="1380" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="274" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="275" target="280">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="275" value="else if&lt;div&gt;dieTwo = 2&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-                    <mxGeometry x="397" y="1230" width="100" height="100" as="geometry"/>
-                </mxCell>
-                <mxCell id="276" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="278" target="281">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="294" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="278" target="282">
-                    <mxGeometry relative="1" as="geometry">
-                        <Array as="points">
-                            <mxPoint x="450" y="1600"/>
-                        </Array>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="278" value="else if&lt;div&gt;dieTwo = 6&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-                    <mxGeometry x="400" y="1453" width="100" height="100" as="geometry"/>
-                </mxCell>
-                <mxCell id="279" value="Output 1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-                    <mxGeometry x="514.5" y="1125" width="120" height="50" as="geometry"/>
-                </mxCell>
-                <mxCell id="280" value="Output 2" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-                    <mxGeometry x="514.5" y="1255" width="120" height="50" as="geometry"/>
-                </mxCell>
-                <mxCell id="281" value="Output 6" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-                    <mxGeometry x="527" y="1478" width="120" height="50" as="geometry"/>
-                </mxCell>
-                <mxCell id="282" value="Error" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-                    <mxGeometry x="515.5" y="1570" width="120" height="50" as="geometry"/>
-                </mxCell>
-                <mxCell id="283" value="false" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-                    <mxGeometry x="397" y="1190" width="50" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="284" value="false" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-                    <mxGeometry x="387" y="1330" width="50" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="285" value="true" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-                    <mxGeometry x="487" y="1470" width="40" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="286" value="true" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-                    <mxGeometry x="487" y="1250" width="40" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="288" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="275" target="289">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="447" y="1330" as="sourcePoint"/>
-                        <mxPoint x="447" y="1491" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="289" value="&lt;b&gt;&lt;u&gt;dieTwo = 3 through 5&lt;/u&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-                    <mxGeometry x="392" y="1385" width="140" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="292" value="true" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-                    <mxGeometry x="492" y="1127" width="40" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="298" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="300" target="303">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="299" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="300" target="314">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="948" y="491" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="300" value="if&lt;div&gt;dieOne = 1&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-                    <mxGeometry x="817" y="441" width="100" height="100" as="geometry"/>
-                </mxCell>
-                <mxCell id="301" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;entryX=0.483;entryY=0.101;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="303" target="324">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="867" y="701" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="302" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="303" target="316">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="948" y="621" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="303" value="else if&lt;div&gt;dieOne = 2&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-                    <mxGeometry x="817" y="571" width="100" height="100" as="geometry"/>
-                </mxCell>
-                <mxCell id="304" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="306" target="318">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="948" y="1011" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="305" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="306" target="320">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="947" y="1101" as="targetPoint"/>
-                        <Array as="points">
-                            <mxPoint x="867" y="950"/>
-                            <mxPoint x="941" y="950"/>
-                        </Array>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="306" value="else if&lt;div&gt;dieOne = 6&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-                    <mxGeometry x="814.5" y="800" width="100" height="100" as="geometry"/>
-                </mxCell>
-                <mxCell id="307" value="false" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-                    <mxGeometry x="817" y="531" width="50" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="308" value="false" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-                    <mxGeometry x="807" y="671" width="50" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="309" value="false" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-                    <mxGeometry x="812" y="931" width="50" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="310" value="true" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-                    <mxGeometry x="907" y="820" width="40" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="311" value="true" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-                    <mxGeometry x="907" y="583" width="40" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="313" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="314" target="322">
+                <mxCell id="313" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" target="322" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="1102" y="491"/>
                             <mxPoint x="1102" y="1000"/>
                             <mxPoint x="902" y="1000"/>
                         </Array>
+                        <mxPoint x="1053.1999999999998" y="491" as="sourcePoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="314" value="Output 1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-                    <mxGeometry x="947" y="466" width="120" height="50" as="geometry"/>
-                </mxCell>
-                <mxCell id="315" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="316" target="322">
+                <mxCell id="315" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="322" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="1142" y="720" as="targetPoint"/>
                         <Array as="points">
@@ -414,24 +46,20 @@
                             <mxPoint x="1102" y="1000"/>
                             <mxPoint x="902" y="1000"/>
                         </Array>
+                        <mxPoint x="1048.1999999999998" y="621" as="sourcePoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="316" value="Output 2" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-                    <mxGeometry x="942" y="596" width="120" height="50" as="geometry"/>
-                </mxCell>
-                <mxCell id="317" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="318" target="322">
+                <mxCell id="317" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" target="322" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="1102" y="850"/>
                             <mxPoint x="1102" y="1000"/>
                             <mxPoint x="902" y="1000"/>
                         </Array>
+                        <mxPoint x="1048.1999999999998" y="850" as="sourcePoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="318" value="Output 6" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-                    <mxGeometry x="942" y="825" width="120" height="50" as="geometry"/>
-                </mxCell>
-                <mxCell id="319" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="320" target="322">
+                <mxCell id="319" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="322" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="1132" y="1000" as="targetPoint"/>
                         <Array as="points">
@@ -439,228 +67,274 @@
                             <mxPoint x="1102" y="1000"/>
                             <mxPoint x="902" y="1000"/>
                         </Array>
+                        <mxPoint x="1048.1999999999998" y="946" as="sourcePoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="320" value="Error" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-                    <mxGeometry x="942" y="921" width="120" height="50" as="geometry"/>
-                </mxCell>
-                <mxCell id="321" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="322" target="327">
+                <mxCell id="425" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="385" target="28">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <UserObject label="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;dieTwo =&amp;nbsp;&amp;nbsp;Math.floor(Math.random() * 6) + 1&lt;/span&gt;" id="322">
-                    <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;strokeWidth=2;arcSize=12;labelBackgroundColor=default;" vertex="1" parent="1">
-                        <mxGeometry x="842" y="1021" width="120" height="50" as="geometry"/>
-                    </mxCell>
-                </UserObject>
-                <mxCell id="323" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="324" target="306">
+                <mxCell id="385" value="if (numberOfDice &amp;gt;= 0)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="252.5" y="20" width="130" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="402" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="399" target="401">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="324" value="&lt;b&gt;&lt;u&gt;dieOne = 3 through 5&lt;/u&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-                    <mxGeometry x="794.5" y="725" width="140" height="30" as="geometry"/>
+                <mxCell id="399" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;document.getElementById(&#39;die-one&#39;).innerHTML = &#39;&amp;lt;img src=&quot;./assets/pink.png&quot;&amp;gt;&#39;&lt;/span&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="15" y="180" width="170" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="325" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="327" target="330">
+                <mxCell id="404" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="401" target="403">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="326" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="327" target="334">
+                <mxCell id="401" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;document.getElementById(&#39;die-two&#39;).innerHTML = &#39;&amp;lt;img src=&quot;./assets/pink.png&quot;&lt;/span&gt;&lt;span style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); text-wrap-mode: nowrap; font-family: monospace; font-size: 0px; text-align: start; background-color: rgb(251, 251, 251);&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CUserObject%20label%3D%22document.getElementById(&#39;die-one&#39;).innerHTML%20%3D%20&#39;%26amp%3Blt%3Bimg%20src%3D%26quot%3B.%2Fassets%2Fpink.png%26quot%3B%26amp%3Bgt%3B&#39;%22%20id%3D%222%22%3E%3CmxCell%20style%3D%22whiteSpace%3Dwrap%3Bhtml%3D1%3BfontSize%3D11%3BstrokeWidth%3D2%3Brounded%3D1%3BarcSize%3D12%3BlabelBackgroundColor%3Ddefault%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%2210%22%20y%3D%22180%22%20width%3D%22180%22%20height%3D%2260%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2FUserObject%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;&amp;gt;&#39;&lt;/span&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="15" y="270" width="170" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="406" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="403" target="405">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="327" value="if&lt;div&gt;dieTwo = 1&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-                    <mxGeometry x="839" y="1110" width="100" height="100" as="geometry"/>
+                <mxCell id="403" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;document.getElementById(&#39;die-three&#39;).innerHTML = &#39;&amp;lt;img src=&quot;./assets/pink.png&quot;&lt;/span&gt;&lt;span style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); text-wrap-mode: nowrap; font-family: monospace; font-size: 0px; text-align: start; background-color: rgb(251, 251, 251);&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CUserObject%20label%3D%22document.getElementById(&#39;die-one&#39;).innerHTML%20%3D%20&#39;%26amp%3Blt%3Bimg%20src%3D%26quot%3B.%2Fassets%2Fpink.png%26quot%3B%26amp%3Bgt%3B&#39;%22%20id%3D%222%22%3E%3CmxCell%20style%3D%22whiteSpace%3Dwrap%3Bhtml%3D1%3BfontSize%3D11%3BstrokeWidth%3D2%3Brounded%3D1%3BarcSize%3D12%3BlabelBackgroundColor%3Ddefault%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%2210%22%20y%3D%22180%22%20width%3D%22180%22%20height%3D%2260%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2FUserObject%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;&amp;gt;&#39;&lt;/span&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="15" y="360" width="170" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="328" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="343" target="333">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="889" y="1390" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="329" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="330" target="335">
+                <mxCell id="408" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="405" target="407">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="330" value="else if&lt;div&gt;dieTwo = 2&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-                    <mxGeometry x="839" y="1240" width="100" height="100" as="geometry"/>
+                <mxCell id="405" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;document.getElementById(&#39;die-four&#39;).innerHTML = &#39;&amp;lt;img src=&quot;./assets/pink.png&quot;&lt;/span&gt;&lt;span style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); text-wrap-mode: nowrap; font-family: monospace; font-size: 0px; text-align: start; background-color: rgb(251, 251, 251);&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CUserObject%20label%3D%22document.getElementById(&#39;die-one&#39;).innerHTML%20%3D%20&#39;%26amp%3Blt%3Bimg%20src%3D%26quot%3B.%2Fassets%2Fpink.png%26quot%3B%26amp%3Bgt%3B&#39;%22%20id%3D%222%22%3E%3CmxCell%20style%3D%22whiteSpace%3Dwrap%3Bhtml%3D1%3BfontSize%3D11%3BstrokeWidth%3D2%3Brounded%3D1%3BarcSize%3D12%3BlabelBackgroundColor%3Ddefault%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%2210%22%20y%3D%22180%22%20width%3D%22180%22%20height%3D%2260%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2FUserObject%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;&amp;gt;&#39;&lt;/span&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="15" y="460" width="170" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="331" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="333" target="336">
+                <mxCell id="410" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="407" target="409">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="332" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="333" target="337">
+                <mxCell id="407" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;document.getElementById(&#39;die-five&#39;).innerHTML = &#39;&amp;lt;img src=&quot;./assets/pink.png&quot;&lt;/span&gt;&lt;span style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); text-wrap-mode: nowrap; font-family: monospace; font-size: 0px; text-align: start; background-color: rgb(251, 251, 251);&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CUserObject%20label%3D%22document.getElementById(&#39;die-one&#39;).innerHTML%20%3D%20&#39;%26amp%3Blt%3Bimg%20src%3D%26quot%3B.%2Fassets%2Fpink.png%26quot%3B%26amp%3Bgt%3B&#39;%22%20id%3D%222%22%3E%3CmxCell%20style%3D%22whiteSpace%3Dwrap%3Bhtml%3D1%3BfontSize%3D11%3BstrokeWidth%3D2%3Brounded%3D1%3BarcSize%3D12%3BlabelBackgroundColor%3Ddefault%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%2210%22%20y%3D%22180%22%20width%3D%22180%22%20height%3D%2260%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2FUserObject%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;&amp;gt;&#39;&lt;/span&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="15" y="550" width="170" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="411" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="409" target="385">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
-                            <mxPoint x="892" y="1610"/>
+                            <mxPoint x="220" y="670"/>
+                            <mxPoint x="220" y="75"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="333" value="else if&lt;div&gt;dieTwo = 6&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-                    <mxGeometry x="842" y="1463" width="100" height="100" as="geometry"/>
+                <mxCell id="409" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;document.getElementById(&#39;die-six&#39;).innerHTML = &#39;&amp;lt;img src=&quot;./assets/pink.png&quot;&lt;/span&gt;&lt;span style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); text-wrap-mode: nowrap; font-family: monospace; font-size: 0px; text-align: start; background-color: rgb(251, 251, 251);&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CUserObject%20label%3D%22document.getElementById(&#39;die-one&#39;).innerHTML%20%3D%20&#39;%26amp%3Blt%3Bimg%20src%3D%26quot%3B.%2Fassets%2Fpink.png%26quot%3B%26amp%3Bgt%3B&#39;%22%20id%3D%222%22%3E%3CmxCell%20style%3D%22whiteSpace%3Dwrap%3Bhtml%3D1%3BfontSize%3D11%3BstrokeWidth%3D2%3Brounded%3D1%3BarcSize%3D12%3BlabelBackgroundColor%3Ddefault%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%2210%22%20y%3D%22180%22%20width%3D%22180%22%20height%3D%2260%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2FUserObject%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;&amp;gt;&#39;&lt;/span&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="15" y="640" width="170" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="351" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="334">
+                <mxCell id="416" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="413" target="415">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="431" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="413" target="430">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="413" value="if (dieOne === 1)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="251" y="235" width="130" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="418" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="415" target="417">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="433" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="415" target="432">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="415" value="else if (dieOne === 2)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="250" y="367" width="130" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="420" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="417" target="419">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="435" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="417" target="434">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="417" value="else if (dieOne === 3)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="250" y="505" width="130" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="422" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="419" target="421">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="438" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="419" target="436">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="419" value="else if (dieOne === 4)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="250" y="643" width="130" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="424" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="421" target="423">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="440" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="421" target="439">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="421" value="else if (dieOne === 5)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="250" y="781" width="130" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="442" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="423" target="441">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="445" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="423" target="443">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="902" y="1680.0000000000005" as="targetPoint"/>
+                        <mxPoint x="350" y="1100" as="targetPoint"/>
+                        <mxPoint x="270" y="1027" as="sourcePoint"/>
                         <Array as="points">
-                            <mxPoint x="1120" y="1160"/>
-                            <mxPoint x="1120" y="1660"/>
-                            <mxPoint x="902" y="1660"/>
+                            <mxPoint x="315" y="1090"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="334" value="Output 1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-                    <mxGeometry x="956.5" y="1135" width="120" height="50" as="geometry"/>
+                <mxCell id="423" value="else if (dieOne === 6)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="250" y="917" width="130" height="110" as="geometry"/>
                 </mxCell>
-                <mxCell id="352" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="335">
+                <mxCell id="426" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;document.getElementById(&#39;die-one&#39;).innerHTML = &#39;&amp;lt;img src=&quot;./assets/die1.png&quot;&amp;gt;&#39;&lt;/span&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="410" y="150" width="170" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="492" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="430">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="902" y="1680.0000000000005" as="targetPoint"/>
+                        <mxPoint x="620" y="80" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="430" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;document.getElementById(&#39;die-one&#39;).innerHTML = &#39;&amp;lt;img src=&quot;./assets/die1.png&quot;&amp;gt;&#39;&lt;/span&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="410" y="260" width="170" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="493" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="432">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="620" y="110" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="432" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;document.getElementById(&#39;die-one&#39;).innerHTML = &#39;&amp;lt;img src=&quot;./assets/die2.png&quot;&amp;gt;&#39;&lt;/span&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="400" y="392" width="170" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="494" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="434">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="620" y="140" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="434" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;document.getElementById(&#39;die-one&#39;).innerHTML = &#39;&amp;lt;img src=&quot;./assets/die3.png&quot;&amp;gt;&#39;&lt;/span&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="400" y="530" width="170" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="495" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="436">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="620" y="170" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="436" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;document.getElementById(&#39;die-one&#39;).innerHTML = &#39;&amp;lt;img src=&quot;./assets/die4.png&quot;&amp;gt;&#39;&lt;/span&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="400" y="668" width="170" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="496" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="439">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="620" y="190" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="439" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;document.getElementById(&#39;die-one&#39;).innerHTML = &#39;&amp;lt;img src=&quot;./assets/die5.png&quot;&amp;gt;&#39;&lt;/span&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="400" y="806" width="170" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="497" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="441">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="620" y="204.80656215122767" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="441" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;document.getElementById(&#39;die-one&#39;).innerHTML = &#39;&amp;lt;img src=&quot;./assets/die6.png&quot;&amp;gt;&#39;&lt;/span&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="384" y="942" width="170" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="443" value="Error comment (You should NEVER get here)" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="370" y="1060" width="170" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="446" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="448" target="453">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="447" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="448" target="469">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="448" value="dieTwo =&amp;nbsp;&amp;nbsp;Math.floor(Math.random() * 6) + 1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;strokeWidth=2;labelBackgroundColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="655" y="151" width="135" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="449" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="450" target="448">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="450" value="if (numberOfDice &amp;gt;= 1)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="658.5" y="20" width="130" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="451" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="453" target="456">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="452" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="453" target="470">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="453" value="if (&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;dieTwo&lt;/span&gt;&amp;nbsp;=== 1)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="657" y="235" width="130" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="454" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="456" target="459">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="455" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="456" target="471">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="456" value="else if (&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;dieTwo&lt;/span&gt;&amp;nbsp;=== 2)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="656" y="367" width="130" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="457" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="459" target="462">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="458" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="459" target="472">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="459" value="else if (&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;dieTwo&lt;/span&gt;&amp;nbsp;=== 3)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="656" y="505" width="130" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="460" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="462" target="465">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="461" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="462" target="473">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="462" value="else if (&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;dieTwo&lt;/span&gt;&amp;nbsp;=== 4)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="656" y="643" width="130" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="463" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="465" target="468">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="464" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="465" target="474">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="465" value="else if (&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;dieTwo&lt;/span&gt;&amp;nbsp;=== 5)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="656" y="781" width="130" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="466" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="468" target="475">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="467" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="468" target="476">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="756" y="1100" as="targetPoint"/>
+                        <mxPoint x="676" y="1027" as="sourcePoint"/>
                         <Array as="points">
-                            <mxPoint x="1120" y="1290"/>
-                            <mxPoint x="1120" y="1660"/>
-                            <mxPoint x="902" y="1660"/>
+                            <mxPoint x="721" y="1090"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="335" value="Output 2" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-                    <mxGeometry x="956.5" y="1265" width="120" height="50" as="geometry"/>
+                <mxCell id="468" value="else if (&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;dieTwo&lt;/span&gt;&amp;nbsp;=== 6)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="656" y="917" width="130" height="110" as="geometry"/>
                 </mxCell>
-                <mxCell id="353" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="336">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="902" y="1680.0000000000005" as="targetPoint"/>
-                        <Array as="points">
-                            <mxPoint x="1120" y="1513"/>
-                            <mxPoint x="1120" y="1660"/>
-                            <mxPoint x="902" y="1660"/>
-                        </Array>
-                    </mxGeometry>
+                <mxCell id="469" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;document.getElementById(&#39;die-two&#39;).innerHTML = &#39;&amp;lt;img src=&quot;./assets/die1.png&quot;&amp;gt;&#39;&lt;/span&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="816" y="150" width="170" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="336" value="Output 6" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-                    <mxGeometry x="969" y="1488" width="120" height="50" as="geometry"/>
+                <mxCell id="470" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;document.getElementById(&#39;die-two&#39;).innerHTML = &#39;&amp;lt;img src=&quot;./assets/die1.png&quot;&amp;gt;&#39;&lt;/span&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="816" y="260" width="170" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="354" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="337">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="902" y="1680.0000000000005" as="targetPoint"/>
-                        <Array as="points">
-                            <mxPoint x="1120" y="1605"/>
-                            <mxPoint x="1120" y="1660"/>
-                            <mxPoint x="902" y="1660"/>
-                        </Array>
-                    </mxGeometry>
+                <mxCell id="471" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;document.getElementById(&#39;die-two&#39;).innerHTML = &#39;&amp;lt;img src=&quot;./assets/die2.png&quot;&amp;gt;&#39;&lt;/span&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="806" y="392" width="170" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="337" value="Error" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-                    <mxGeometry x="957.5" y="1580" width="120" height="50" as="geometry"/>
+                <mxCell id="472" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;document.getElementById(&#39;die-two&#39;).innerHTML = &#39;&amp;lt;img src=&quot;./assets/die3.png&quot;&amp;gt;&#39;&lt;/span&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="806" y="530" width="170" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="338" value="false" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-                    <mxGeometry x="839" y="1200" width="50" height="30" as="geometry"/>
+                <mxCell id="473" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;document.getElementById(&#39;die-two&#39;).innerHTML = &#39;&amp;lt;img src=&quot;./assets/die4.png&quot;&amp;gt;&#39;&lt;/span&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="806" y="668" width="170" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="339" value="false" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-                    <mxGeometry x="829" y="1340" width="50" height="30" as="geometry"/>
+                <mxCell id="474" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;document.getElementById(&#39;die-two&#39;).innerHTML = &#39;&amp;lt;img src=&quot;./assets/die5.png&quot;&amp;gt;&#39;&lt;/span&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="806" y="806" width="170" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="340" value="true" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-                    <mxGeometry x="929" y="1480" width="40" height="30" as="geometry"/>
+                <mxCell id="475" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;document.getElementById(&#39;die-two&#39;).innerHTML = &#39;&amp;lt;img src=&quot;./assets/die6.png&quot;&amp;gt;&#39;&lt;/span&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="790" y="942" width="170" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="341" value="true" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-                    <mxGeometry x="929" y="1260" width="40" height="30" as="geometry"/>
+                <mxCell id="476" value="Error comment (You should NEVER get here)" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="776" y="1060" width="170" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="342" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="330" target="343">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="889" y="1340" as="sourcePoint"/>
-                        <mxPoint x="889" y="1501" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="343" value="&lt;b&gt;&lt;u&gt;dieTwo = 3 through 5&lt;/u&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-                    <mxGeometry x="834" y="1395" width="140" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="344" value="true" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-                    <mxGeometry x="934" y="1137" width="40" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="348" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="345" target="300">
+                <mxCell id="491" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="426" target="450">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="345" value="dieOne =&amp;nbsp;&amp;nbsp;Math.floor(Math.random() * 6) + 1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;strokeWidth=2;labelBackgroundColor=default;" vertex="1" parent="1">
-                    <mxGeometry x="799" y="340" width="135" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="349" value="true" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-                    <mxGeometry x="927" y="466" width="40" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="378" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="355" target="360">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <UserObject label="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;dieSix =&amp;nbsp;&amp;nbsp;Math.floor(Math.random() * 6) + 1&lt;/span&gt;" id="355">
-                    <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;strokeWidth=2;arcSize=12;labelBackgroundColor=default;" vertex="1" parent="1">
-                        <mxGeometry x="844" y="1740" width="120" height="50" as="geometry"/>
-                    </mxCell>
-                </UserObject>
-                <mxCell id="357" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="356" target="355">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="356" value="&lt;b&gt;&lt;u&gt;dieThree through dieFive&lt;/u&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-                    <mxGeometry x="817" y="1680" width="170" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="358" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="360" target="363">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="359" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="360" target="367">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="360" value="if&lt;div&gt;dieSix = 1&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-                    <mxGeometry x="851" y="1832" width="100" height="100" as="geometry"/>
-                </mxCell>
-                <mxCell id="361" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="376" target="366">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="901" y="2112" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="362" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="363" target="368">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="363" value="else if&lt;div&gt;dieSix = 2&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-                    <mxGeometry x="851" y="1962" width="100" height="100" as="geometry"/>
-                </mxCell>
-                <mxCell id="364" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="366" target="369">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="365" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="366" target="370">
-                    <mxGeometry relative="1" as="geometry">
-                        <Array as="points">
-                            <mxPoint x="904" y="2332"/>
-                        </Array>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="366" value="else if&lt;div&gt;dieSix = 6&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-                    <mxGeometry x="854" y="2185" width="100" height="100" as="geometry"/>
-                </mxCell>
-                <mxCell id="367" value="Output 1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-                    <mxGeometry x="968.5" y="1857" width="120" height="50" as="geometry"/>
-                </mxCell>
-                <mxCell id="368" value="Output 2" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-                    <mxGeometry x="968.5" y="1987" width="120" height="50" as="geometry"/>
-                </mxCell>
-                <mxCell id="369" value="Output 6" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-                    <mxGeometry x="981" y="2210" width="120" height="50" as="geometry"/>
-                </mxCell>
-                <mxCell id="370" value="Error" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-                    <mxGeometry x="969.5" y="2302" width="120" height="50" as="geometry"/>
-                </mxCell>
-                <mxCell id="371" value="false" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-                    <mxGeometry x="851" y="1922" width="50" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="372" value="false" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-                    <mxGeometry x="841" y="2062" width="50" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="373" value="true" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-                    <mxGeometry x="941" y="2202" width="40" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="374" value="true" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-                    <mxGeometry x="941" y="1982" width="40" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="375" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="363" target="376">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="901" y="2062" as="sourcePoint"/>
-                        <mxPoint x="901" y="2223" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="376" value="&lt;b&gt;&lt;u&gt;dieTwo = 3 through 5&lt;/u&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-                    <mxGeometry x="846" y="2117" width="140" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="377" value="true" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-                    <mxGeometry x="946" y="1859" width="40" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="382" value="Error" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-                    <mxGeometry x="974" y="220" width="116" height="50" as="geometry"/>
+                <mxCell id="498" value="&lt;span style=&quot;color: rgb(0, 0, 0); text-wrap-mode: wrap;&quot;&gt;if (numberOfDice &amp;gt;= 2) to&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(0, 0, 0); text-wrap-mode: wrap;&quot;&gt;if (numberOfDice &amp;gt;= 4)&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="1020" y="70" width="150" height="40" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
